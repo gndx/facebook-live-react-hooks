@@ -1,9 +1,10 @@
 {
-  "name": "react-base",
+  "name": "facebook-live-react-hooks",
   "version": "1.0.0",
-  "description": "React Base",
+  "description": "Clase en vivo “Todo lo que necesitas saber de React Hooks”",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [
@@ -11,17 +12,29 @@
     "webpack"
   ],
   "author": "Oscar Barajas <oscar@dragons.mx>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
-  }
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/facebook-live-react-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gndx/facebook-live-react-hooks/issues"
+  },
+  "homepage": "https://github.com/gndx/facebook-live-react-hooks#readme"
 }
