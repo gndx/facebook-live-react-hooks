@@ -22,7 +22,7 @@ npm run start
 
 ## Autor
 
-* **Oscar Barajas** - *Initial work* - [PurpleBooth](https://github.com/gndx)
+* **Oscar Barajas** - *Initial work* - [GnDx](https://github.com/gndx)
 
 ## Licencia
 
